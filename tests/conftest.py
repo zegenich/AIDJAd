@@ -11,7 +11,6 @@ BASE_URL = "https://restful-booker.herokuapp.com"
 def booking_client():
     return BookingClient(base_url=BASE_URL)
 
-
 @pytest.fixture
 def valid_booking_payload():
     return Booking(

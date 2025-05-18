@@ -1,6 +1,6 @@
 from src.constants import BookingData
 from models.booking import CreateBookingResponse
-from conftest import created_booking
+#from conftest import created_booking
 
 def test_create_booking(created_booking):
     try:
